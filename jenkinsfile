@@ -4,7 +4,8 @@ pipeline{
         stage('test'){
             steps{
                 sh "whoami"
-                sh"sudo bash bash-scipt.sh"
+                sh "chmod 777 ."
+                sh "bash bash-scipt.sh"
             }
         }
     }
