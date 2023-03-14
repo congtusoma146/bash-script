@@ -1,5 +1,5 @@
 whoami
 ls -la
-chmod -aR /var/lib/jenkins/workspace/bash-script
+chmod -R a+x /var/lib/jenkins/workspace/bash-script
 
 mkdir /hello-world1/
