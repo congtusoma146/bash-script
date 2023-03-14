@@ -3,9 +3,8 @@ pipeline{
     stages{
         stage('test'){
             steps{
-                sh"chown admin:jenkins /var/lib/jenkins/workspace/bash-scipt.sh"
                 sh "whoami"
-                sh"bash bash-scipt.sh"
+                sh"sudo bash bash-scipt.sh"
             }
         }
     }
